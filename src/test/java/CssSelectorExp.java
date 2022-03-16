@@ -5,6 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class CssSelectorExp {
     public static void main(String[] args) {
+        System.out.println("program about how to use css selector");
         WebDriverManager.chromedriver().setup();
         WebDriver driver= new ChromeDriver();
         driver.get("https://demo.nopcommerce.com/");
