@@ -25,7 +25,7 @@ public class WebDriverMangerSetUp {
 
 
 
-      //  driver.close(); // close the driver
+        driver.close(); // close the driver
 
 
 
