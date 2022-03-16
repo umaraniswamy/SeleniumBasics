@@ -18,6 +18,7 @@ public class GetTextAndGetTitle {
         System.out.println(homeTitle);
         driver.findElement(By.linkText("Register")).click();
         System.out.println(driver.getTitle());
+        System.out.println("this is end of the progaram");
     }
 
 }

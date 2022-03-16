@@ -7,7 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="seleniumProj" />
+<<<<<<< HEAD
         <module name="GitDemo" />
+=======
+        <module name="SeleniumBasics" />
+>>>>>>> 8a087d37244e448575b99ae310b63eb6cc7c741b
       </profile>
     </annotationProcessing>
   </component>
