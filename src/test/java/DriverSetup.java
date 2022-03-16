@@ -7,6 +7,8 @@ public class DriverSetup {
 
         System.setProperty("webdriver.chrome.driver","drivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
+        System.out.println("this is for driver setup");
+
 
     }
 }
