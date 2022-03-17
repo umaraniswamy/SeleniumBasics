@@ -16,7 +16,7 @@ public class DobExp {
         driver.findElement(By.linkText("Log in")).click();
         driver.findElement(By.id("Email")).sendKeys("tester@gmail.com");
 
-       /* WebElement daywebele= driver.findElement(By.name("DateOfBirthDay"));
+       WebElement daywebele= driver.findElement(By.name("DateOfBirthDay"));
         Select dayDropdown= new Select(daywebele);
         dayDropdown.selectByValue("18");
         WebElement monthwebele= driver.findElement(By.name("DateOfBirthMonth"));
@@ -25,7 +25,7 @@ public class DobExp {
         monthDropdown.selectByIndex(1);
         WebElement yearwebele= driver.findElement(By.name("DateOfBirthYear"));
         Select yearDropdown= new Select(yearwebele);
-        yearDropdown.selectByVisibleText("2022");*/
+        yearDropdown.selectByVisibleText("2022");
 
 
 
